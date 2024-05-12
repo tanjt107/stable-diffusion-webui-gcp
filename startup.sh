@@ -12,9 +12,5 @@ sudo apt install --no-install-recommends google-perftools
 
 git clone  https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
-# wget https://civitai.com/api/download/models/{modelVersionId} --content-disposition
-
 cd stable-diffusion-webui
 ./webui.sh --listen --xformers
-
-# gcloud compute ssh stable-diffusion-webui --project stable-diffusion-web-ui-on-gcp --zone asia-east1-c -- -4NL 7880:localhost:7860 
